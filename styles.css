@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .chat-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-name {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .last-seen {
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .message-page {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f7f9fc;
+  }
+  
+  .message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 0;
+  }
+  
+  .message img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .message-content {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    font-size: 14px;
+  }
+  
+  .message-content p {
+    margin: 0;
+  }
+  
+  .message-content .time {
+    font-size: 10px;
+    color: gray;
+    text-align: right;
+  }
+  
+  .incoming .message-content {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+  }
+  
+  .outgoing {
+    justify-content: flex-end;
+  }
+  
+  .outgoing .message-content {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 10px 10px 0 10px;
+  }
+  
+  .message-bottom {
+    display: flex;
+    padding: 10px;
+    background-color: #f1f3f6;
+    border-top: 1px solid #ddd;
+  }
+  
+  .message-bottom input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .message-bottom button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .message-bottom button:hover {
+    background-color: #0056b3;
+  }
+  

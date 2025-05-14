@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Message Header -->
+    <div class="message-header">
+      <img src="avatar.jpeg" alt="User Avatar" class="avatar">
+      <div class="user-info">
+        <h3 class="user-name">ChatBot</h3>
+        <p class="last-seen">Last seen: Always Active</p>
+      </div>
+    </div>
+
+    <!-- Chat Box -->
+    <div class="chat-box">
+      <!-- Message Page -->
+      <div class="message-page" id="messagePage"></div>
+
+      <!-- Message Bottom -->
+      <div class="message-bottom">
+        <input type="text" id="messageInput" placeholder="Type a message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
